@@ -9,7 +9,7 @@ class Book
 
   def genre= (genre)
     @genre = genre
-    Book::GENRES << genre
+    GENRES << genre
   end
   
   def turn_page
